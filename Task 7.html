@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+</head>
+<body>
+<h2>Images in tables</h2>
+<hr>
+<h3>What are your favorite pets</h3>
+<table border="1">
+    <tr >
+        <th>Pit Image </th>
+        <th width="200">Facts about Pit </th>
+    </tr>
+
+    <tr>
+        <td><img src="resources/horse.jpg" alt="Horse" width="200" height="150"></td>
+        <td> <a href="https://en.wikipedia.org/wiki/Horse" target="_blank">Horse Facts</a></td> 
+    </tr>
+
+    <tr>
+        <td><img src="resources/dogs.jfif" alt="Dog" width="200" height="150"></td>
+        <td> <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Dog Facts</a></td>
+    </tr>
+    <tr>
+        <td><img src="resources/cats.jpg" alt="Cat" width="200" height="150"></td>
+        <td> <a href="https://en.wikipedia.org/wiki/Cat" target="_blank">Cat Facts</a></td>
+    </tr>
+</table>
+<br><br>
+
+<table border="1">
+    <tr>
+        <th colspan="6"> Time Table</th>
+    </tr>
+    <tr>
+        <th rowspan="6"> Hours </th>
+        <th> Sun </th>
+        <th> Mon </th>
+        <th> Tue </th>
+        <th> Wed </th>
+        <th> Thu </th>
+    </tr>
+    <tr>
+        <td> Math </td>
+        <td> Science </td>
+        <td> Programming </td>
+        <td> English </td>
+        <td> Arts </td>
+    </tr>
+    <tr>
+        <td> Math </td>
+        <td> Science </td>
+        <td> Programming </td>
+        <td> English </td>
+        <td> Arts </td>
+    </tr>
+    <tr> <td colspan="5" align="center"> <b>Lunch </b></td> </tr> 
+        
+    <tr>
+        <td> Math </td>
+        <td> Science </td>
+        <td> Programming </td>
+        <td rowspan="2" colspan="2" align="center"> <b>Project</b> </td>
+    </tr>
+    <tr>
+        <td> Math </td>
+        <td> Science </td>
+        <td> Programming </td>
+
+    </tr>
+</table>
+<br><br>
+
+<table border="2">
+    <caption>Programming Languages and Frameworks</caption>
+    <tr>
+        <th > Language </th>
+        <th> Framework </th>
+    </tr>
+    <tr>
+        <td> Python </td>
+        <td> Django </td>
+    </tr>
+    <tr>
+        <td rowspan="2"> JavaScript </td>
+        <td> React </td>
+    </tr>
+    <tr> 
+        <td> Vue.js </td>
+    </tr>
+    <tr>
+        <td> Java </td>
+        <td> Spring Boot </td>
+    </tr>
+</table>
+<br><br>
+
+
+<table border="1">
+    <caption> Table Spacing</caption>
+    <tr>
+        <td rowspan="2"> row1-2, col1</td>
+        <td> row1, col2</td>
+        <td> row1, col3</td>
+        <td> row1, col4</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="2"> row2-3, col2-3 </td>
+        <td> row2, col4</td>
+        </tr>
+    <tr>
+        <td> row3, col1</td>
+        <td> row3, col4</td>
+    </tr>
+    <tr>
+        <td> row4, col1</td>
+        <td> row4, col2</td>
+        <td colspan="2"> row4, col3-4</td>
+    </tr>
+</table>
+<br><br>
+
+<table border="1" >
+    <h3> Table using colspan and rowspan</h3>
+    <tr >
+        <td rowspan="9">A</td> <td rowspan="8">B</td> <td rowspan="7">C</td> <td rowspan="6">D</td> <td rowspan="5">E</td> <td rowspan="4">F</td>
+        <td >AH</td>
+        <td rowspan="4">H</td> <td rowspan="5">I</td> <td rowspan="6">J</td>  <td rowspan="7">K</td> <td rowspan="8">L</td> <td rowspan="10">M</td>
+    </tr>
+    <tr >
+        <td >G</td>
+    </tr>
+    <tr >
+        <td >GH</td>
+    </tr>
+    <tr >
+        <td >N</td>
+    </tr>
+    <tr >
+        <td colspan="3">O</td>
+    </tr>
+    <tr >
+        <td colspan="5">P</td>
+    </tr>
+    <tr >
+        <td colspan="7">Q</td>
+    </tr>
+    <tr >
+        <td colspan="2">R</td>
+        <td>S</td> <td>T</td>  <td>U</td>  <td>V</td>  <td>W</td>
+        <td colspan="2">X</td>
+    </tr>
+    <tr> 
+        <td colspan="11">Y</td>
+    </tr>
+    <tr>
+        <td colspan="2">Z</td>
+        <td>1</td>  <td>2</td> <td>3</td> <td>4</td>  <td>5</td>  <td>6</td>  <td>7</td> <td>8</td>  <td>9</td>  <td>10</td>
+    </tr>
+
+</table>
+<br><br>  
+
+<table border="2" style="text-align: center;">
+    <caption><b>TIME TABLE</b></caption>
+    <tr>
+        <th>Day/Period</th>
+        <th>I<br>9:30-10:20</th>
+        <th>II<br>10:20-11:10</th>
+        <th>III<br>11:10-12:00</th>
+        <th>12:00-12:40</th>
+        <th>IV<br>12:40-1:30</th>
+        <th>V<br>1:30-2:20</th>
+        <th>VI<br>2:20-3:10</th>
+        <th>VII<br>3:10-4:00</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td>Eng</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <th rowspan="6">L<br>U<br>N<br>C<br>H</th>
+        <td colspan="3">LAB</td>
+        <td>Phy</td>
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3">LAB</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td>Sport</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td>Mat</td>
+        <td>phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">Library</td>
+    </tr>
+    <tr>
+        <th>Thursday</th>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+    </tr>
+    <tr>
+        <th>Friday</th>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td>Eng</td>
+        <td>Phy</td>
+    </tr>
+    <tr>
+        <th>Saturday</th>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td colspan="3">Seminar</td>
+        <td>Sport</td>
+    </tr>
+</table>
+
+</body>
+</html>
