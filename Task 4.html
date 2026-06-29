@@ -54,9 +54,60 @@
             <input type="file" name="photo"><br><br>
 
             <label>Write about yourself</label><br>
-            <textarea name="message" rows="4" cols="50"></textarea><br><br>
+            <textarea name="message" rows="4" cols="50" placeholder="Write short description about yourself..."></textarea><br><br>
 
             <input type="submit" value="Submit">
         </form>
+    </fieldset>
+<br><br>
+
+
+     <form autocomplete="on">
+
+        <table border="0">
+            
+   <tr>
+
+    <td><label>Name:</label></td>
+    <td><input type="text" name="name" placeholder="Enter your name" required><br></td>
+    </tr>
+    <tr>
+    <td><label>Address:</label></td>
+    <td><input type="text" name="adress" placeholder="Enter your address" required><br></td>
+    </tr>
+    <tr>
+    <td><label>City:</label></td>
+    <td><input type="text" name="city" placeholder="Enter your city" required><br></td>
+    </tr>
+    <tr>
+    <td><label>State:</label></td>
+    <td><input type="text" name="state" placeholder="Enter your state" required><br></td>
+    </tr>
+    <tr>
+    <td><label>Zip Code:</label></td>
+    <td><input type="number" name="zip" placeholder="Enter your zip code" required><br></td>
+    </tr>
+    <tr>
+    <td><label>Magazine:</label></td>
+    <td><select name="Magazine" >
+        <option value="Tech Today" selected>Tech Today</option>
+        <option value="Science Weekly">Science Weekly</option>
+        <option value="Health & Fitness">Health & Fitness</option>
+    </select><br></td>
+    </tr>
+    <tr>
+    <td><label >Subscribtion</label></td>
+    <td>
+    <input type="radio" name="subscribe" value="1" id="1y"> 
+                <label for="1y">1 year</label>
+    <input type="radio" name="subscribe" value="2" id="2y">
+        <label for="2y">2 years</label>
+
+    <br>
+    <button type="submit" value="Submit"> Submit </button>
+
+
+        </form>
+        </table>
 </body>
 </html>
